@@ -1,3 +1,15 @@
 *{
     box-sizing: border-box;
+    
 }
+.container{
+    padding: 20px;
+    margin: 20px;
+}
+.comment {
+    margin: 5px;
+    padding: 5px;
+    width: 600px;
+}
+
+  
