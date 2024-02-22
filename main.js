@@ -29,16 +29,16 @@ const comments = [
         {
             id: 5,
             text: "This is a reply to the independent comment",
-            parentId: 1,
+            parentId: 4,
             replies: [
                 {
                     id: 6,
                     text: "This is a nested reply to undependent comment",
-                    parentId: 2,
+                    parentId: 5,
                     replies: [
                        { id: 7,
                         text: "This is a reply to the reply to the independent comment",
-                        parentId: 3,
+                        parentId: 6,
                         replies: []
                        }
                     ] 
